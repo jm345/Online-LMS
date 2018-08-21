@@ -1,3 +1,2 @@
 # hello_world
-First repo
-Whats up bitch
+Hi my name is Jordan
