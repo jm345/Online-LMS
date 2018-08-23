@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learning Management System</title>
+<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="A3.css">
+<script type = "text/javascript" src = "A3.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class ="head">
+		<div id ="banner">
+			<header>
+				<a href="A3.html">
+				<img src="logo.png" alt="High School logo" width = '110' height = '96' style="float:left;">
+				</a>
+				<img src="acc_logo.png" alt="Kaboom" width = '90' height = '90' style="float:right;">
+				<h1>Student case review</h1>
+			</header>
+		</div>
+	</div>	
+		<ul class="cases">
+			<li><button onclick="getCaseInfo1()">Case One</button></li>
+			<div class='disable'>
+				<li><button onclick="getCaseInfo2()">Case Two</button></li>
+				<li><button onclick="getCaseInfo2()">Case Three</button></li>
+				<li><button onclick="getCaseInfo2()">Case Four</button></li>
+			</div>
+		</ul>
+	<div class='case_info'>
+		<article>
+			<h1 id='header'>Music in theatre 101</h1>
+			<hr>
+			  <div id='case_desc'>
+				  <p>Welcome to the music in theatre 101 course. Here you will find all the materials
+				  you will need to accomplish your learning goals.</p>
+				  <br>
+				  <p> Cases that are available for review are listed on the left column. Any cases that are
+				  not available will be blurred out and will be available at a later date.
+				  <br>
+				  <p>Thank you for using the learning management system.</p>
+				</div>
+		</article>
+	</div>
+	<div class='rightmenu'>
+		<h3>Recent Feedback</h3>
+		<hr>
+		<ul style="overflow:auto;height:400px;">
+			<li><h4>Gary Kim | Case One</h4>
+				<p><em>q1 is quite difficult but you can do it!</em></p>
+			<li><h4>Zel Kust | Case Two</h4>
+				<p><em>If you concentrate on what we learned in class it will be a lot easier.</em></p>
+			<li><h4>Shirilee Li | Case Three</h4>
+				<p><em>xoxo I love starbucks and shoes xoxo</em></p>
+			<li><h4>Gary Kim | Case Four</h4>
+				<p><em>paragraph 2 is really important for q4. Try and focus there.</em></p>
+			<li><h4>Gary Kim | Case Four</h4>
+				<p><em>paragraph 2 is really important for q3. Try and focus there.</em></p>
+			<li><h4>Gary Kim | Case Four</h4>
+				<p><em>Q10 is quite difficult.</em></p>
+		</ul>
+	</div>
+	<div class="proceed">
+		<button onclick="getFeedback()">Submit Feedback</button>
+		<button onclick="getReview()">Review Case</button>
+	</div>
+	<footer>Copyright &copy; JordanMarsh.com | Education Learning Management System (LMS)</footer>
+</div>
+</body>
+</html>
